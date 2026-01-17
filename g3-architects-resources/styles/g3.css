@@ -377,12 +377,13 @@ img {
 
 }
 .cards-features {
-  padding-right:0;
+  padding-right: 1rem;
 }
-#Experience-badge{
-  margin-left: 3rem;
-  margin-top: 1rem;
+  #Experience-badge{
+  margin-top: 20px;
+  margin-left: 20px;
 }
+
 
 
   img {
@@ -419,4 +420,16 @@ img {
 .footer-description{
   padding: 1rem auto;
 }
+}
+@media screen and (min-width:992px) and (max-width:1380px){
+   .cards-features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin:0 auto;
+   }
+
+}
+.our-features{
+  align-items: center;
 }
